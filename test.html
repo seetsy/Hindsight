@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Hindsight Analytics: Hindsight is 20/20</title>
+    <link rel="stylesheet" type="text/css" href="/js/ext-4.2.1.883/resources/css/ext-all.css">
+    <link rel="stylesheet" href="/hindsight/css/styles.css"  />
+    <script type="text/javascript" src="/js/ext-4.2.1.883/ext-all-debug.js"></script>
+    <script type="text/javascript" src="/js/deft-debug-0.8.0.js"></script>
+    <script>
+        Ext.Loader.setConfig({
+            enabled:true,
+            paths: {
+                'Hindsight': 'app',
+                'Ext.ux.Router': 'lib/Router.js'
+            }
+        });
+
+        Ext.application({
+            name: 'MyApp',
+            launch: function() {
+                Ext.create('Ext.container.Viewport', {
+                    items: [
+                        {
+                           xtype:'panel',
+                            title: 'Hello',
+                            width: 200,
+                            html: '<p>World!</p>',
+
+                            items: [
+                                {
+                                    xtype:'label',
+                                    text: 'wheremi?'
+                                }
+                            ]
+                        }
+                    ]
+                });
+
+
+
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

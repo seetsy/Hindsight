@@ -1,0 +1,13 @@
+{
+    'success': true,
+    'results': [
+        {
+            'href': '/hindsight/#/1',
+            'label': 'Home'
+        },{
+            'href':'/hindsight/#/2',
+            'label': 'Settings'
+        }
+
+    ]
+}

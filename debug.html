@@ -1,0 +1,301 @@
+<html class="x-border-box x-strict x-viewport">
+<head>
+    <title>Hindsight Analytics: Hindsight is 20/20</title>
+    <link rel="stylesheet" type="text/css" href="/js/extjs-4.1.0/resources/css/ext-all.css">
+    <!--link rel="stylesheet" type="text/css" href="/js/ext-4.2.1.883/resources/css/ext-all.css"-->
+    <link rel="stylesheet" href="/hindsight/css/bootstrap.css">
+    <link rel="stylesheet" href="/hindsight/css/styles.css">
+    <script type="text/javascript" src="/js/ext-4.1.1a/ext-all-debug.js"></script>
+    <!--script type="text/javascript" src="/js/ext-4.2.1.883/ext-all-debug.js"></script-->
+    <script type="text/javascript" src="/js/deft-debug-0.8.0.js"></script>
+    <script type="text/javascript" src="/hindsight/app/app.js"></script>
+    <script>
+
+        Ext.syncRequire(["Hindsight.Application"]);
+        Ext.create("Hindsight.Application");
+
+    </script>
+    <script type="text/javascript" src="app/controller/AppCtrl.js?_dc=1393136153194"></script>
+    <script type="text/javascript" src="app/controller/BrowserManagerCtrl.js?_dc=1393136153195"></script>
+</head>
+<body id="ext-gen1018" class="x-body x-webkit x-chrome x-mac x-reset x-layout-fit x-container">
+<div class="x-panel x-fit-item x-panel-default" id="mainContainer"
+     style="margin: 0px; width: 1138px; height: 651px; opacity: 1;">
+    <div class="x-container hbox x-docked x-container-default x-docked-top x-container-docked-top x-container-default-docked-top"
+         id="controlBarContainer" style="width: 1138px; opacity: 1;">
+        <div class="x-container x-container-default" id="logoType"><img src="images/seetsyLogo2.png" width="94"
+                                                                        height="25" title="Hindsight Analytics"
+                                                                        alt="Hindsight Analytics">
+
+            <div id="logoType-clearEl" class="x-clear" role="presentation"></div>
+        </div>
+        <div class="x-component x-component-default" id="topNavigation" tabindex="-1" style="">
+            <div class="x-dataview-item"><span class="tplWrapper" id="home"><a href="/hindsight/#/home" class="button"
+                                                                               id="ext-gen1115"><span>Home</span></a><span
+                    class="vr floatLeft"></span></span></div>
+            <div class="x-dataview-item"><span class="tplWrapper" id="sites"><a href="/hindsight/#/sites" class="button"
+                                                                                id="ext-gen1116"><span>Sites</span></a><span
+                    class="vr floatLeft"></span></span></div>
+            <div class="x-dataview-item"><span class="tplWrapper" id="import"><a href="/hindsight/#/import"
+                                                                                 class="button" id="ext-gen1117"><span>Import Data</span></a><span
+                    class="vr floatLeft"></span></span></div>
+            <div class="x-dataview-item"><span class="tplWrapper" id="insights"><a href="/hindsight/#/insights"
+                                                                                   class="button active"
+                                                                                   id="ext-gen1118"><span>Insights</span></a><span
+                    class="vr floatLeft"></span></span></div>
+        </div>
+        <div id="controlBarContainer-clearEl" class="x-clear" role="presentation"></div>
+    </div>
+    <div id="mainContainer-body" class="x-panel-body x-panel-body-default x-panel-body-default"
+         style="overflow: auto; width: 1138px; left: 0px; top: 46px; height: 100%; bottom: 0px;">
+        <div class="x-container hboxX x-container-defaultX" id="bodyContainerX" style="
+    border: 2px solid #00ff00;
+    height: 100%;
+    overflow: visible;
+">
+            <div class="x-container x-container-default x-layout-fit" id="viewStackContainer">
+                <div class="x-container moduleView x-fit-item x-container-default" id="insightModule"
+                     style="margin: 0px; width: 1117px;">
+                    <div class="x-container subViewContainer x-container-default x-layout-fit"
+                         id="insightViewStackContainer" style="
+    bottom: 0px;
+    height: 100%;
+">
+                        <div class="x-container viewPadding x-fit-item x-container-default"
+                             id="insightsOverviewContainer"
+                             style="margin: 0px; width: 881px; opacity: 1;clear: both;height: 100%;">
+                            <div class="x-container x-container-default" id="myVbox" style="
+    border: 1px solid;
+    height: 100%;
+    clear: both;
+">
+                                <div class="x-container viewHead x-container-default x-box-layout-ct"
+                                     id="insightsControlBar">
+                                    <div id="insightsControlBar-innerCt" class="x-box-inner " role="presentation"
+                                         style="width: 831px; height: 50px;">
+                                        <div id="insightsControlBar-targetEl"
+                                             style="position: absolute; width: 831px; left: 0px; top: 0px; height: 1px;">
+                                            <div class="x-container x-box-item x-container-default"
+                                                 style="width: 415px; left: 0px; margin: 0px; top: 0px; height: 50px;"
+                                                 id="container-1015"><label class="x-component h1 x-component-default"
+                                                                            id="label-1016" for="">Insights:
+                                                Overview</label>
+
+                                                <div id="container-1015-clearEl" class="x-clear"
+                                                     role="presentation"></div>
+                                            </div>
+                                            <div class="x-container textRight x-box-item x-container-default"
+                                                 id="container-1017"
+                                                 style="left: 415px; margin: 0px; width: 416px; top: 0px;"><label
+                                                    class="x-component h2 x-component-default" id="siteLabel" for="">SomeSite.org</label>
+
+                                                <div class="x-container floatRight x-container-default"
+                                                     id="container-1018">
+                                                    <div class="x-container x-container-default" id="dateFieldPicker">
+                                                        <table class="x-field x-form-item x-form-dirty x-field-default x-autocontainer-form-item"
+                                                               cellpadding="0" id="textField"
+                                                               style="table-layout: fixed;">
+                                                            <tbody>
+                                                            <tr id="textField-inputRow">
+                                                                <td id="textField-labelCell" style="display:none;"
+                                                                    valign="top" halign="left" width="105"
+                                                                    class="x-field-label-cell"><label
+                                                                        id="textField-labelEl" for="textField-inputEl"
+                                                                        class="x-form-item-label x-form-item-label-left"
+                                                                        style="width:100px;margin-right:5px;"></label>
+                                                                </td>
+                                                                <td class="x-form-item-body " id="textField-bodyEl"
+                                                                    colspan="3" role="presentation"
+                                                                    style="width: 150px;"><input id="textField-inputEl"
+                                                                                                 type="text" size="1"
+                                                                                                 name="textField-inputEl"
+                                                                                                 value="02/23/2014 - 02/23/2014"
+                                                                                                 style="width:100%;"
+                                                                                                 class="x-form-field x-form-text "
+                                                                                                 autocomplete="off"
+                                                                                                 aria-invalid="false"
+                                                                                                 data-errorqtip=""></td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div id="dateFieldPicker-clearEl" class="x-clear"
+                                                             role="presentation"></div>
+                                                    </div>
+                                                    <div id="container-1018-clearEl" class="x-clear"
+                                                         role="presentation"></div>
+                                                </div>
+                                                <div id="container-1017-clearEl" class="x-clear"
+                                                     role="presentation"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="x-container x-container-default" id="container-1020">
+                                    <div class="x-container x-container-default x-layout-fit" id="chartContainer">
+                                        <div class="x-surface stretch x-fit-item x-surface-default"
+                                             style="height: 300px; margin: 0px; width: 831px;" id="chart-1028">
+
+                                        </div>
+                                        <div class="x-surface stretch x-fit-item x-surface-default"
+                                             style="height: 300px; left: 0px; top: 0px; margin: 0px; width: 831px;"
+                                             id="chart-1030">
+
+                                        </div>
+                                    </div>
+                                    <div class="x-btn x-btn-default-small x-noicon x-btn-noicon x-btn-default-small-noicon"
+                                         style="border-width:1px 1px 1px 1px;" id="loadChartBtn"><em
+                                            id="loadChartBtn-btnWrap">
+                                        <button id="loadChartBtn-btnEl" type="button" class="x-btn-center"
+                                                hidefocus="true" role="button" autocomplete="off" style="height: 16px;">
+                                            <span id="loadChartBtn-btnInnerEl" class="x-btn-inner"
+                                                  style="">Create Chart</span><span id="loadChartBtn-btnIconEl"
+                                                                                    class="x-btn-icon "></span></button>
+                                    </em></div>
+                                    <div id="container-1020-clearEl" class="x-clear" role="presentation"></div>
+                                </div>
+                                <div class="x-container x-container-default x-box-layout-ct" id="container-1021" style="
+    border: 1px solid #000000;
+">
+                                    <div id="container-1021-innerCt" class="x-box-inner " role="presentation"
+                                         style="width: 831px; height: 152px;">
+                                        <div id="container-1021-targetEl"
+                                             style="position: absolute; width: 831px; left: 0px; top: 0px; height: 1px;">
+                                            <div class="x-component summaryBox x-box-item x-component-default"
+                                                 id="visitsSummaryBox" tabindex="-1"
+                                                 style="left: 0px; top: 0px; margin: 0px;">
+                                                <div class="x-dataview-item"><h4>Overview Summary</h4>
+
+                                                    <div class="view-wrap row-fluid">
+                                                        <div class="span6"><p><b>700</b> Visits </p>
+
+                                                            <p><b>790</b> Page Views</p>
+
+                                                            <p><b>2.5</b>: Pages/Visit</p></div>
+                                                        <div class="span6"><p><b>9.42</b> Bounce Rate</p>
+
+                                                            <p><b>2.55</b> Avg. Time on Site</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="x-component summaryBox x-box-item x-component-default"
+                                                 style="margin: 0px; left: 320px; top: 0px;" id="conversionsSummaryBox"
+                                                 tabindex="-1">
+                                                <div class="x-dataview-item"><h4>Affiliate Conversions</h4>
+
+                                                    <div class="view-wrap"><p><b>28</b> Conversions </p>
+
+                                                        <p><b>979</b> Commissions</p>
+
+                                                        <p><b>4.49</b>: Conversion Rate</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="myVbox-clearEl" class="x-clear" role="presentation"></div>
+                            </div>
+                            <div id="insightsOverviewContainer-clearEl" class="x-clear" role="presentation"></div>
+                        </div>
+                    </div>
+                    <div id="insightModule-clearEl" class="x-clear" role="presentation"></div>
+                </div>
+            </div>
+            <div id="bodyContainer-clearEl" class="x-clear" role="presentation"></div>
+        </div>
+        <div id="mainContainer-clearEl" class="x-clear" role="presentation"></div>
+    </div>
+</div>
+
+
+<div class="x-tip x-layer x-tip-default" id="ext-quicktips-tip" style="display: none;">
+    <div class="x-tip-header x-docked x-tip-header-default x-horizontal x-tip-header-horizontal x-tip-header-default-horizontal x-top x-tip-header-top x-tip-header-default-top x-docked-top x-tip-header-docked-top x-tip-header-default-docked-top x-unselectable"
+         id="ext-quicktips-tip_header">
+        <div id="ext-quicktips-tip_header-body"
+             class="x-tip-header-body x-tip-header-body-default x-tip-header-body-horizontal x-tip-header-body-default-horizontal x-tip-header-body-top x-tip-header-body-default-top x-tip-header-body-docked-top x-tip-header-body-default-docked-top x-tip-header-body-default-horizontal x-tip-header-body-default-top x-tip-header-body-default-docked-top x-box-layout-ct">
+            <div id="ext-quicktips-tip_header-innerCt" class="x-box-inner " role="presentation">
+                <div id="ext-quicktips-tip_header-targetEl"
+                     style="position:absolute;width:20000px;left:0px;top:0px;height:1px">
+                    <div class="x-component x-tip-header-text-container x-box-item x-component-default"
+                         style="text-align:left;" id="ext-quicktips-tip_header_hd"><span
+                            id="ext-quicktips-tip_header_hd-textEl" class="x-tip-header-text x-tip-header-text-default">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ext-quicktips-tip-body" class="x-tip-body x-tip-body-default x-tip-body-default">
+        <div id="ext-quicktips-tip-clearEl" class="x-clear" role="presentation"></div>
+    </div>
+    <div class="x-tip-anchor x-tip-anchor-top" id="ext-gen1036"></div>
+</div>
+<form id="ext-gen1037" class="x-hide-display"><input type="hidden" id="x-history-field"></form>
+<div class="x-mask" style="z-index: 18999; width: 300px; height: 152px; left: 261px; top: 458px; visibility: hidden;"
+     id="ext-gen1123"></div>
+<div class="x-mask-msg x-layer x-mask-msg-default" id="loadmask-1025"
+     style="left: 366px; top: 518px; z-index: 19001; display: none;">
+    <div id="loadmask-1025-msgEl" style="position:relative" class="">Loading...</div>
+</div>
+<div class="x-mask" style="z-index: 19009; width: 300px; height: 152px; left: 581px; top: 458px; visibility: hidden;"
+     id="ext-gen1125"></div>
+<div class="x-mask-msg x-layer x-mask-msg-default" id="loadmask-1026"
+     style="left: 686px; top: 518px; z-index: 19011; display: none;">
+    <div id="loadmask-1026-msgEl" style="position:relative" class="">Loading...</div>
+</div>
+<div class="x-tip x-layer x-tip-default"
+     style="width: 100px; height: 33px; left: 891px; top: 281px; z-index: 19001; display: none;" id="tooltip-1029">
+    <div class="x-tip-header x-docked x-tip-header-default x-horizontal x-tip-header-horizontal x-tip-header-default-horizontal x-top x-tip-header-top x-tip-header-default-top x-docked-top x-tip-header-docked-top x-tip-header-default-docked-top x-unselectable"
+         id="tooltip-1029_header" style="width: 94px; left: 2px; top: 2px;">
+        <div id="tooltip-1029_header-body"
+             class="x-tip-header-body x-tip-header-body-default x-tip-header-body-horizontal x-tip-header-body-default-horizontal x-tip-header-body-top x-tip-header-body-default-top x-tip-header-body-docked-top x-tip-header-body-default-docked-top x-tip-header-body-default-horizontal x-tip-header-body-default-top x-tip-header-body-default-docked-top x-box-layout-ct"
+             style="width: 94px;">
+            <div id="tooltip-1029_header-innerCt" class="x-box-inner " role="presentation"
+                 style="width: 94px; height: 21px;">
+                <div id="tooltip-1029_header-targetEl"
+                     style="position: absolute; width: 94px; left: 0px; top: 0px; height: 1px;">
+                    <div class="x-component x-tip-header-text-container x-box-item x-component-default"
+                         style="text-align: left; left: 0px; top: 0px; margin: 0px; width: 94px;"
+                         id="tooltip-1029_header_hd"><span id="tooltip-1029_header_hd-textEl"
+                                                           class="x-tip-header-text x-tip-header-text-default">20 visits</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tooltip-1029-body" class="x-tip-body x-tip-body-default x-tip-body-default"
+         style="width: 94px; left: 0px; top: 21px; height: 6px;">
+        <div id="tooltip-1029-clearEl" class="x-clear" role="presentation"></div>
+    </div>
+    <div class="x-tip-anchor x-tip-anchor-top" id="ext-gen1221" style="visibility: hidden;"></div>
+</div>
+<div class="x-css-shadow" role="presentation" id="ext-gen1126"
+     style="z-index: 19000; left: 875px; top: 249px; width: 100px; height: 29px; box-shadow: rgb(136, 136, 136) 0px 0px 4px; display: none;"></div>
+<div class="x-css-shadow" role="presentation" id="ext-gen1124"
+     style="z-index: 19000; left: 524px; top: 368px; width: 100px; height: 29px; box-shadow: rgb(136, 136, 136) 0px 0px 4px; display: none;"></div>
+<div class="x-tip x-layer x-tip-default"
+     style="width: 100px; height: 33px; left: 524px; top: 364px; z-index: 19001; display: none;" id="tooltip-1031">
+    <div class="x-tip-header x-docked x-tip-header-default x-horizontal x-tip-header-horizontal x-tip-header-default-horizontal x-top x-tip-header-top x-tip-header-default-top x-docked-top x-tip-header-docked-top x-tip-header-default-docked-top x-unselectable"
+         id="tooltip-1031_header" style="width: 94px; left: 2px; top: 2px;">
+        <div id="tooltip-1031_header-body"
+             class="x-tip-header-body x-tip-header-body-default x-tip-header-body-horizontal x-tip-header-body-default-horizontal x-tip-header-body-top x-tip-header-body-default-top x-tip-header-body-docked-top x-tip-header-body-default-docked-top x-tip-header-body-default-horizontal x-tip-header-body-default-top x-tip-header-body-default-docked-top x-box-layout-ct"
+             style="width: 94px;">
+            <div id="tooltip-1031_header-innerCt" class="x-box-inner " role="presentation"
+                 style="width: 94px; height: 21px;">
+                <div id="tooltip-1031_header-targetEl"
+                     style="position: absolute; width: 94px; left: 0px; top: 0px; height: 1px;">
+                    <div class="x-component x-tip-header-text-container x-box-item x-component-default"
+                         style="text-align: left; left: 0px; top: 0px; margin: 0px; width: 94px;"
+                         id="tooltip-1031_header_hd"><span id="tooltip-1031_header_hd-textEl"
+                                                           class="x-tip-header-text x-tip-header-text-default">7 visits</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tooltip-1031-body" class="x-tip-body x-tip-body-default x-tip-body-default"
+         style="width: 94px; left: 0px; top: 21px; height: 6px;">
+        <div id="tooltip-1031-clearEl" class="x-clear" role="presentation"></div>
+    </div>
+    <div class="x-tip-anchor x-tip-anchor-top" id="ext-gen1441" style="visibility: hidden;"></div>
+</div>
+</body>
+</html>
